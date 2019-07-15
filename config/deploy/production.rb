@@ -59,9 +59,9 @@
 #     auth_methods: %w(publickey password)
 #     # password: "please use keys"
 #   }
-role :app, %w{deploy_user@172.31.26.13}
-role :web, %w{deploy_user@172.31.26.13}
-role :db,  %w{deploy_user@172.31.26.13}
+role :app, %w{deploy_user@3.1.205.38}
+role :web, %w{deploy_user@3.1.205.38}
+role :db,  %w{deploy_user@3.1.205.38}
 set :ssh_options, {
   keys: %w(~/.ssh/practice-deploy-instance.pem),
   forward_agent: false,
