@@ -41,6 +41,7 @@ group :development do
   gem 'capistrano-rails'
   gem 'capistrano-rvm'
   gem 'capistrano-figaro-yml', '~> 1.0.2'
+  gem 'passenger', '>= 5.0.25', require: 'phusion_passenger/rack_handler'
 end
 
 
